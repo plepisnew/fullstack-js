@@ -1,0 +1,16 @@
+.navigation-bar {
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.navigation-bar-para {
+    color: white;
+    font-size: 4vh;
+}

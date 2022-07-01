@@ -1,11 +1,14 @@
 import './App.css'
-import { ProjectBoxList } from './components/ProjectBoxList';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
-export default function App() {
-
+const App: React.FC = () => {
     return (
         <div className="container">
-            <ProjectBoxList />
+            <Navbar />
+            <Home />
         </div>
     );
 }
+
+export default App;

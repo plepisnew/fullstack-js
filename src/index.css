@@ -4,15 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
-    padding: 10px;
-}
-
 p {
     font-family: 'Poppins';
 }
 
 .container {
     display: inline-block;
+}
+
+.content-container {
+    margin-top: 7vh;
 }
 
