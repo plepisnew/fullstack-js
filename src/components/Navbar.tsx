@@ -12,4 +12,4 @@ const Navbar: React.FC<Props> = () => {
         </div>
     );
 }
-export default Navbar
+export default Navbar;

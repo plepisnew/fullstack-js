@@ -1,7 +1,7 @@
 import '../styles/ItemBoxList.css';
 import { useState } from 'react';
 import { ItemBox, Props as ItemBoxProps } from './ItemBox';
-import getProjects from '../projects.js';
+import getProjects from '../modules/projects';
 
 interface Props {
     rows?: number;

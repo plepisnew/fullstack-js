@@ -1,5 +1,11 @@
 
-export default function getProjects() {
+interface Project {
+    name: string,
+    description: string,
+    img: string,
+}
+
+const getProjects = (): Project[] => {
     return [
         {
             name: 'Rubiks Cube Solver',
@@ -13,3 +19,5 @@ export default function getProjects() {
         }
     ]
 }
+
+export default getProjects;
